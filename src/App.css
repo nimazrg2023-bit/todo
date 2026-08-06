@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: white;
+}
+
+.div-black {
+    width: 800px;
+    margin: 40px auto 20px;
+    background: black;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    position: relative;
+    left: 200px;
+}
+
+.div-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.div-inn {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+
+}
+
+
+
+.input-search {
+    display: block;
+    width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid rgb(215, 215, 215);
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    transition: .3s;
+}
+
+select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn1 {
+    padding: 10px 18px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.btn2 {
+    padding: 7px 15px;
+    background: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 3px;
+    transition: .3s;
+}
+
+
+.main-2 {
+    width: 800px;
+    margin: 12px auto;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgb(131, 131, 131);
+    margin: auto;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+.th2 {
+    width: 150px;
+}
+
+.th3 {
+    width: 120px;
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    margin: 10px ;
+    font-size: 18px;
+}
+.td-1{
+    padding-left: 15px;
+}
+.td-2{
+    padding-left: 15px;
+}
+.td-3{
+    padding-left: 30px;
+}
+.div-out{
+    background-color: black;
+    width: 350px;
+    height:120px ;
+    position: relative;
+    bottom: 140px;
+    left: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.div-out div{
+    display: flex;
+}
+.div-out input{
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    padding-left: 5px;
+}
+.div-out button{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    color: white;
+    
+}
+.h4{
+    color: red;
+}
