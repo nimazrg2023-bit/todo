@@ -6,6 +6,7 @@ import Add from "./Additem";
 import AddCategory from "./AddCtegory";
 import SearchComponent from "./SearchComponent";
 import ItemComponent from "./ItemComponent";
+import Ty from "./Ty";
 export const Context = createContext(null)
 function App() {
   const [Cat, setCat] = useState("none")
@@ -25,7 +26,7 @@ function App() {
       <AddCategory />
       <SearchComponent />
       <ItemComponent />
-      
+      <Ty />
     </Context>
   )
 }
