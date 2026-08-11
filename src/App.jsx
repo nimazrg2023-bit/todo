@@ -17,6 +17,7 @@ function App() {
   return (
     <Context value={{
       filteredtodo,
+      
       add, Cat, Catt, dispatch, setCat,
       Search, setSearch
     }}>
